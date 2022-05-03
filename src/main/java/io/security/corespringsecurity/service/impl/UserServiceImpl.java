@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-@Service("userService")
+@Service("userService") //빈등록 -> 빈이름 userService
 public class UserServiceImpl implements UserService {
 
     @Autowired

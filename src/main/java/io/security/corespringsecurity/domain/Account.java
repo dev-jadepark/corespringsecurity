@@ -6,8 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
-@Data
+@Entity //JPA가 관리하는 클래스, DB테이블과 매핑
+@Data   //lombok
 public class Account {
 
     @Id
